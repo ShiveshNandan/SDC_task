@@ -1,0 +1,254 @@
+.skill-item{
+    width: 8em;
+}
+.box12{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+margin: 20px 0px 30px 0px ;
+width: 100vw;
+}
+.navbar-top{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.ipu-logo-navbar{
+    margin: 0px;
+}
+.navbar-section{
+    display: none;
+}
+.navbar-top-heading{
+    display: none;
+}
+.bbox{
+    width: 98vw;
+}
+.kl{
+    height: 1.3vw;
+}
+h3{
+    font-size: 2.2vw;
+}
+.cv, .vv, li{
+    font-size: 1.3vw;
+}
+.ba2, .b22, .ph, .gg{
+    font-size: 1.3vw;
+}
+.pie{
+    --w:13.2vw;
+}
+.sem{
+    font-size: 1.3vw;
+}
+.donut {
+    width: 10.5vw; height: 10.5vw;
+}
+.hole{
+    width: 8.5vw; height: 8.5vw;
+}
+.hed{
+    font-size: 2vw;
+}
+#tt{
+  height: 20vw;
+}
+
+@media (max-width : 850px){
+    /* *{
+        background-color: blue;
+    } */
+    .htd{
+        display: none;
+    }
+    .bb6a{
+        display: none;
+    }
+    .box6, .box6a{
+        display: flex;
+    }
+    .box1{
+        width: 95vw;
+    }
+    .profile{
+        width: 90vw;
+    }
+    .bbox{
+        flex-direction: column-reverse;
+        width: 95vw;
+    }
+    .box2{
+        width: 95vw;
+        display: flex;
+        margin: 12px 12px 12px 12px;
+        justify-content: space-around;
+     }
+     .box12{
+         display: flex;
+         width: 95vw;
+         flex-direction: column;
+     }
+     .GF{
+         margin-top:60px;
+         /* width:; */
+     }
+     .b21, .b22{
+         border: none;
+     }
+     .dd, .fg{
+         font-size: 2vw;
+     }
+     .kl{
+         height: 2.4vw;
+     }
+    .gg{
+        font-size: 2vw;
+    }
+    h3{
+        font-size: 3.7vw;
+    }
+    .cv, .vv{
+        font-size: 2vw;
+    }
+    .sem{
+        font-size: 2vw;
+    }
+    .pie{
+        --w: 20vw;
+        font-size: 2.1vw;
+        --b:1.5vw;
+        }
+    .legend{
+        font-size: 2.1vw;
+    }
+    .hole{
+        width: 16vw;
+        height: 16vw;
+    }
+    .donut{
+        width: 18vw;
+        height: 18vw;
+    }
+    .mm{
+        font-size: 2.1vw;
+        margin-top: 1vw;
+    }
+    .box4a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub{
+        font-size: 2vw;
+    }
+    .hed{
+        font-size: 2.5vw;
+    }
+    .box7{
+        width: 70vw;
+    }
+    #tt{
+        height: 28vw;
+    }
+    .profile{
+        font-size:5.6vw;
+    }
+    h4{
+        display: flex;
+        margin: 0;
+        width: 100px;
+    }
+}
+@media (max-width : 700px){
+    .profile{
+        font-size: 10vw;
+        margin: auto;
+        text-align: center;
+    }
+    .box2{
+        flex-direction: column;
+    }
+    #name{
+        font-size: 6vw;
+    }
+    .b21{
+        justify-content: space-around;
+        border-top:2px solid rgb(230, 229, 229);
+        border-bottom:2px solid rgb(230, 229, 229);
+    }
+    .b22{
+        margin: auto;
+    }
+    .dd, .fg{
+        font-size: 3vw;
+    }
+    .kl{
+        height: 3.8vw;
+    }
+    .gg{
+        font-size: 3vw;
+    }
+    h3{
+        font-size: 6vw;
+    }
+    .bigb{
+        flex-direction: column;
+    }
+    .ll, .uu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cv, .vv{
+        font-size: 3vw;
+    }
+    .bigb2{
+        flex-direction: column;
+    }
+    .jj, .oo{
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: column; */
+    }
+    .jj{
+        margin-bottom: 50px;
+    }
+    .pie, .sem{
+        font-size: 2.4vw;
+        --w:130px;
+        --b:2vw;
+    }
+    .legend{
+        font-size: 3.4vw;
+    }
+    .hole{
+        width: 21vw;
+        height: 21vw;
+    }
+    .donut{
+        width: 26vw;
+        height: 26vw;
+    }
+    .mm{
+        font-size: 3vw;
+    }
+    .sub{
+        font-size: 3vw;
+    }
+    .hed{
+        font-size: 4.3vw;
+    }
+    .box6{
+        justify-content: space-between;
+        width: 100vw;
+    }
+}
+@media (max-width : 400px){
+ 
+    .row{
+        margin: 0;
+        /* background: #000; */
+        padding:0px;
+        margin: -17px -16px -1px -22px;
+    }
+}

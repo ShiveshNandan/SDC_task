@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" media="screen and (max-width: 960px)" href="profile2.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="navbar-top d-flex p-2" id="navbar-top">
+        <div class="logo-li">
+            <a href="/ipu2022/index.php"><img src="logo_name_white.png" class="ipu-logo-navbar" alt="ipu-logo"></a>
+        </div>
+        <div class="navbar-top-heading">
+            <p class="navbar-top-heading-1">गुरु गोबिंद सिंह इंद्रप्रस्थ विश्वविद्यालय</p>
+            <p class="navbar-top-heading-1-1">Guru Gobind Singh Indraprastha University</p>
+            <p class="navabr-top-heading-2">Sector 16 C, Dwarka, Delhi - 110075</p>
+        </div>
+        <!-- <ul class="d-flex p-2" id="header-icon">
+            <li class="header-icons"><a onclick="sweetalert('https://twitter.com/GGSIPUindia')"
+                    class="new_icongap fab fa-twitter" aria-hidden="true"></a></li>
+            <li class="header-icons"><a
+                    onclick="sweetalert('https://www.linkedin.com/school/guru-gobind-singh-indraprastha-university/?originalSubdomain=in')"
+                    class="new_icongap fab fa-linkedin" aria-hidden="true"></a></li>
+            <li class="header-icons"><a onclick="sweetalert('https://www.instagram.com/ggsipuindia/')"
+                    class="new_icongap fab fa-instagram" aria-hidden="true"></a></li>
+            <li class="header-icons"><a onclick="sweetalert('https://www.facebook.com/GGSIPUofficial')"
+                    class="new_icongap fab fa-facebook" aria-hidden="true"></a></li>
+            <li class="header-icons"><a
+                    onclick="sweetalert('https://www.youtube.com/channel/UCjClomR7ih9UZ5qAoe5UCEA/videos')"
+                    class="new_icongap fab fa-youtube" aria-hidden="true"></a></li>
+            <li class="header-icons"><a onclick="sweetalert('https://anchor.fm/ipuradio')"
+                    class="new_icongap fas fa-radio" aria-hidden="true"></a></li>
+            <ul class="d-flex" style="margin:0; padding:0; position:relative; top:50px; left:-215px;">
+                <li><a href="/ipu2022/index.php" style="text-decoration:none; color:white; font-size:15px;"
+                        class="px-2">Home</a></li>
+                <li><a href="/ipu2022/aboutuni.php" style="text-decoration:none; color:white;font-size:15px;">About
+                        Us</a></li>
+            </ul>
+        </ul> -->
+    </div>
+    <div class="navbar-section">
+        <div class="container">
+            <nav>
+                <div class="mc">
+                    <ul class="mcd-menu" id="mcd-menu">
+                        <!-- <li id="op">gg</li> -->
+                        <li>
+                            <a href="/ipu2022/index.php"><strong class="dropdown-head">Home</strong></a>
+                        </li>
+                        <li class="first-li">
+                            <a href="aboutuni.php"><strong class="dropdown-head">About Us</strong></a>
+                        </li>
+                        <li>
+                            <a href="vc.php"><strong class="dropdown-head">Vice Chancellor</strong></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong class="dropdown-head">Academics</strong>
+                            </a>
+                            <ul><a href="#">
+                                </a>
+                                <li><a href="#">
+                                    </a><a class="dropdown-head" href="#">Schools &amp; Programmes</a>
+                                    <ul>
+                                        <li><a class="dropdown" href="all_programmes.php">List of Programmes</a></li>
+                                        <li><a class="dropdown" href="syll.php">Scheme/Syllabus</a></li>
+                                        <li><a class="dropdown" href="schools.php">University Schools</a></li>
+                                        <li><a class="dropdown" href="centersmain.php">University Centres</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-head" href="#">Academic</a>
+                                    <ul>
+                                        <li><a class="dropdown" href="acadaff.php">Academic Affairs</a></li>
+                                        <li><a class="dropdown" href="intaff.php">International Affairs</a></li>
+                                        <li><a class="dropdown" href="library.php">Library</a></li>
+                                        <li><a class="dropdown" href="rnc.php">Research &amp; Consultancy</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong class="dropdown-head">Admission</strong>
+                            </a>
+                            <ul><a href="#">
+                                </a>
+                                <li><a href="#">
+                                    </a><a class="dropdown-head" href="#">Admission 2022-23</a>
+                                    <ul>
+                                        <li><a class="dropdown" href="#"
+                                                onclick="sweetalert('https://ipu.admissions.nic.in')">Admission Portal
+                                                Link</a></li>
+                                        <li><a class="dropdown" href="../Pubinfo2022/adm22brgen030322.pdf">For General
+                                                Programmes</a></li>
+                                        <li><a class="dropdown" href="../Pubinfo2022/adm22brphd030322.pdf">For
+                                                Ph.D./M.Phil.</a></li>
+                                        <li><a class="dropdown" href="admission2022notices.php">Notice/ Circulars :
+                                                2022-23</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-head" href="#">Admission 2021-22</a>
+                                    <ul>
+                                        <li><a class="dropdown" href="#"
+                                                onclick="sweetalert('https://ipu.admissions.nic.in')">Admission Portal
+                                                Link</a></li>
+                                        <li><a class="dropdown"
+                                                href="http://ggsipu.ac.in/ExamResults/CET2021Results/cet2021resultsmain.htm"
+                                                target="_blank">CET 2021 Results</a></li>
+                                        <li><a class="dropdown" href="../Pubinfo2020/adminfo100621.pdf">For General
+                                                Programmes</a></li>
+                                        <li><a class="dropdown" href="../Pubinfo2020/admforgn100621.pdf">For Foreign
+                                                Students</a></li>
+                                        <li><a class="dropdown" href="../Pubinfo2020/admphd100621.pdf">For Ph.D./M.Phil.
+                                                Programme</a></li>
+                                        <li><a class="dropdown" href="admission2021notices.php">Notices / Circulars :
+                                                2021-22</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong class="dropdown-head">Administration</strong>
+                            </a>
+                            <ul><a href="#">
+                                </a>
+                                <li><a href="#"></a><a class="dropdown" href="registraripu.php">Registrar</a></li>
+                                <li>
+                                    <a class="dropdown-head" href="#">Administrative Branches</a>
+                                    <ul>
+                                        <li><a class="dropdown" href="#">Admission Branch</a></li>
+                                        <li><a class="dropdown" href="affiliation_branch.php">Affiliation Branch</a>
+                                        </li>
+                                        <li><a class="dropdown" href="#">Coordination</a></li>
+                                        <li><a class="dropdown" href="estate.php">Estate &amp; Security Branch</a></li>
+                                        <li><a class="dropdown" href="#">Legal &amp; RTI</a></li>
+                                        <li><a class="dropdown" href="personnel_branch.php">Personnel Branch</a></li>
+                                        <li><a class="dropdown" href="planning_branch.php">Planning Branch</a></li>
+                                        <li><a class="dropdown" href="tenders.php">Purchase Branch</a></li>
+                                        <li><a class="dropdown" href="#">Store Branch</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown" href="./under_construction.php">Officers</a></li>
+                                <li>
+                                    <a class="dropdown-head" href="./under_construction.php">CVO</a>
+                                </li>
+                                <li><a class="dropdown" href="./under_construction.php">Legal Aid</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li>
+                            <a class="dropdown" href="accounts.php"><strong>Finance / Accounts</strong> </a>
+                            <ul>
+                                <li><a class="dropdown" href="./under_construction.php">Control of Finance</a></li>
+                                <li><a class="dropdown" href="./under_construction.php">Branches</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <strong class="dropdown-head">Examination</strong>
+                            </a>
+                            <ul><a href="#">
+                                </a>
+                                <li><a href="#"></a><a class="dropdown" href="./under_construction.php">Control of
+                                        Examination - I</a></li>
+                                <li><a class="dropdown" href="./under_construction.php">Control of Examination - II</a>
+                                </li>
+                                <li><a class="dropdown" href="./under_construction.php">Examination Branches</a></li>
+                                <li><a class="dropdown" href="exam_notices.php">Examination Notices</a></li>
+                                <li><a class="dropdown" href="exam_datesheet.php">Examination Datesheet</a></li>
+                                <li><a class="dropdown" href="http://ggsipu.ac.in/ExamResults/ExamResultsmain.htm"
+                                        target="_blank">Examination Results</a></li>
+                                <li><a class="dropdown" href="exam_regulation_form.php">Exam. Regulations / Forms</a>
+                                </li>
+                                <li><a class="dropdown" href="nadnotices.php">NAD Notices</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a class="dropdown" href="university_work_division.php"><strong>UWD</strong> </a>
+                        </li>
+                        <li>
+                            <a href="students.php"><strong class="dropdown-head">Students / Alumni</strong></a>
+                        </li>
+                        <li>
+                            <a class="dropdown" href="employee_login.php"><strong>Employee Resources</strong></a>
+                        </li>
+                        <li>
+                            <a class="dropdown" href="notices.php"><strong>Notices / Circulars</strong></a>
+                        </li>
+                        <li class="float">
+                            <div class="search-box" style="display: unset;">
+                                <script async="" src="https://cse.google.com/cse.js?cx=4f112597932c5b291"></script>
+                                <div id="___gcse_0">
+                                    <div class="gsc-control-cse gsc-control-cse-en"
+                                        style="background: rgb(4, 29, 84); border-color: rgb(4, 29, 84);">
+                                        <div class="gsc-control-wrapper-cse" dir="ltr">
+                                            <form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8">
+                                                <table cellspacing="0" cellpadding="0" class="gsc-search-box"
+                                                    style="background-color: rgb(4, 29, 84);">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="gsc-input" style="padding: 0px;">
+                                                                <div class="gsc-input-box" id="gsc-iw-id1"
+                                                                    style="border: 0px;">
+                                                                    <table cellspacing="0" cellpadding="0" id="gs_id50"
+                                                                        class="gstl_50 gsc-input"
+                                                                        style="width: 100%; padding: 0px; margin-bottom: 0px;">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td id="gs_tti50" class="gsib_a"
+                                                                                    style="padding: 0px;"><input
+                                                                                        autocomplete="off" type="text"
+                                                                                        size="10" class="gsc-input"
+                                                                                        name="search" title="search"
+                                                                                        id="gsc-i-id1" dir="ltr"
+                                                                                        spellcheck="false"
+                                                                                        style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none;">
+                                                                                </td>
+                                                                                <td class="gsib_b"
+                                                                                    style="display: none;">
+                                                                                    <div class="gsst_b" id="gs_st50"
+                                                                                        dir="ltr"><a class="gsst_a"
+                                                                                            href="javascript:void(0)"
+                                                                                            title="Clear search box"
+                                                                                            role="button"
+                                                                                            style="display: none;"><span
+                                                                                                class="gscb_a"
+                                                                                                id="gs_cb50"
+                                                                                                aria-hidden="true">×</span></a>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </td>
+                                                            <td class="gsc-search-button"
+                                                                style="padding: 0px; border-color: rgb(4, 29, 84);">
+                                                                <button class="gsc-search-button gsc-search-button-v2"
+                                                                    style="border-radius: 0px;"><svg width="13"
+                                                                        height="13" viewBox="0 0 13 13">
+                                                                        <title>search</title>
+                                                                        <path
+                                                                            d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z">
+                                                                        </path>
+                                                                    </svg></button>
+                                                            </td>
+                                                            <td class="gsc-clear-button">
+                                                                <div class="gsc-clear-button" title="clear results">
+                                                                    &nbsp;
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </form>
+                                            <div class="gsc-results-wrapper-overlay">
+                                                <div class="gsc-results-close-btn" tabindex="0"></div>
+                                                <div class="gsc-positioningWrapper">
+                                                    <div class="gsc-tabsAreaInvisible">
+                                                        <div aria-label="refinement" role="tab"
+                                                            class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom
+                                                            Search</div><span class="gs-spacer"> </span>
+                                                    </div>
+                                                </div>
+                                                <div class="gsc-positioningWrapper">
+                                                    <div class="gsc-refinementsAreaInvisible">
+                                                        <div class="gsc-refinementsGradient"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="gsc-above-wrapper-area-invisible">
+                                                    <table cellspacing="0" cellpadding="0"
+                                                        class="gsc-above-wrapper-area-container">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="gsc-result-info-container">
+                                                                    <div class="gsc-result-info-invisible"></div>
+                                                                </td>
+                                                                <td class="gsc-orderby-container">
+                                                                    <div class="gsc-orderby-invisible">
+                                                                        <div class="gsc-orderby-label gsc-inline-block">
+                                                                            Sort
+                                                                            by:</div>
+                                                                        <div
+                                                                            class="gsc-option-menu-container gsc-inline-block">
+                                                                            <div
+                                                                                class="gsc-selected-option-container gsc-inline-block">
+                                                                                <div class="gsc-selected-option">
+                                                                                    Relevance
+                                                                                </div>
+                                                                                <div class="gsc-option-selector"></div>
+                                                                            </div>
+                                                                            <div class="gsc-option-menu-invisible">
+                                                                                <div
+                                                                                    class="gsc-option-menu-item gsc-option-menu-item-highlighted">
+                                                                                    <div class="gsc-option">Relevance
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="gsc-option-menu-item">
+                                                                                    <div class="gsc-option">Date</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="gsc-adBlockInvisible"></div>
+                                                <div class="gsc-wrapper">
+                                                    <div class="gsc-adBlockInvisible"></div>
+                                                    <div class="gsc-resultsbox-invisible">
+                                                        <div class="gsc-resultsRoot gsc-tabData gsc-tabdActive">
+                                                            <div>
+                                                                <div class="gsc-expansionArea"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="gsc-modal-background-image" tabindex="0"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="sdcusict.php" class="dropdown-head" target="_blank"><strong>Website
+                                    Team</strong></a>
+                        </li>
+                        <li><a class="dropdown-head" href="https://forms.gle/S3eAJAmkMBHHMKwMA"
+                                target="_blank"><strong>Feedback</strong></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="box12">
+        <div class="profile">Student Profile</div>
+        <div class="bbox">
+
+
+            <div class="box1">
+                <h3>Parent's details</h3>
+                <div class="bigb">
+                    <div class="uu">
+                        <div class="b1a">
+                            <li class="cv">Father name :</li>
+                            <li class="cv">Father mobile no. :</li>
+                            <li class="cv">Father email :</li>
+                            <li class="cv">Father Occupation :</li>
+                            <li class="cv">Father Office Address :</li>
+                            <li class="cv">Father Office Phone no. :</li>
+                            <li class="cv">Parents Annual Income :</li>
+                        </div>
+                        <div class="b1b">
+                            <li class="vv">afdghf</li>
+                            <li class="vv">safdgh</li>
+                            <li class="vv">sdgfh</li>
+                            <li class="vv">fsdgf</li>
+                            <li class="vv">sdgfh</li>
+                            <li class="vv">srdfgh</li>
+                            <li class="vv">sdfhgf</li>
+                        </div>
+                    </div>
+                    <div class="ll">
+                        <div class="b1c">
+                            <li class="cv">Mother Name :</li>
+                            <li class="cv">Mother Mobile no. :</li>
+                            <li class="cv">Mother email :</li>
+                            <li class="cv">Mother Occupation :</li>
+                            <li class="cv">Mother Office Address :</li>
+                            <li class="cv">Mother Office Phone no. :</li>
+                        </div>
+                        <div class="b1d">
+                            <li class="vv">asfdg</li>
+                            <li class="vv">asedfg</li>
+                            <li class="vv">asedfg</li>
+                            <li class="vv">asedfg</li>
+                            <li class="vv">asedfg</li>
+                            <li class="vv">asedfg</li>
+                        </div>
+                    </div>
+                </div>
+                <h3>Address</h3>
+                <div class="bigb2">
+                    <h4>Permanent</h4>
+                    <div class="jj">
+                        <div class="permanent">
+                            <li class="cv">Address :</li>
+                            <li class="cv">District :</li>
+                            <li class="cv">State :</li>
+                            <li class="cv">Pin Code :</li>
+                            <li class="cv">Country :</li>
+                            <li class="cv">Guardian Mobile no. :</li>
+                        </div>
+                        <div class="nm">
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                        </div>
+                    </div>
+                    <h4>Communication</h4>
+                    <div class="oo">
+                        <div class="com">
+                            <li class="cv">Address :</li>
+                            <li class="cv">District :</li>
+                            <li class="cv">State :</li>
+                            <li class="cv">Pin Code :</li>
+                            <li class="cv">Country :</li>
+                            <li class="cv">Guardian Mobile no. :</li>
+                        </div>
+                        <div class="fg">
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                            <li class="vv">asddfg</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <h3>Semester Acedmic Performance</h3>
+                    
+                        <div class="b-skills">
+                            <div class="container">
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="94" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="54" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 2</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="71" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="80" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 4</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="95" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="54" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="87" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 7</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="skill-item center-block">
+                                            <div class="chart-container">
+                                                <div class="chart " data-percent="96" data-bar-color="#23afe3">
+                                                    <span class="percent" data-after="%"></span>
+                                                </div>
+                                            </div>
+                                            <div class="sem">semester 8</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- <div class="pie" style="--p:90;--c:purple;">9.0
+                            <li class="sem">Semester 1</li>
+                        </div>
+                        <div class="pie" style="--p:72;--c:purple;">7.2
+                            <li class="sem">Semester 2</li>
+                        </div>
+                        <div class="pie" style="--p:97;--c:purple;">9.7
+                            <li class="sem">Semester 3</li>
+                        </div>
+                        <div class="pie" style="--p:86;--c:purple;">8.6
+                            <li class="sem">Semester 4</li>
+                        </div>
+                        <div class="pie" style="--p:56;--c:purple;">5.6
+                            <li class="sem">Semester 5</li>
+                        </div>
+                        <div class="pie" style="--p:98;--c:purple;">9.8
+                            <li class="sem">Semester 6</li>
+                        </div>
+                        <div class="pie" style="--p:76;--c:purple;">7.6
+                            <li class="sem">Semester 7</li>
+                        </div>
+                        <div class="pie" style="--p:87;--c:purple;">8.7
+                            <li class="sem">Semester 8</li>
+                        </div>
+                        <div class="pie" style="--p:67;--c:purple;">6.7
+                            <li class="sem">Semester 9</li>
+                        </div>
+                        <div class="pie" style="--p:87;--c:purple;">8.7
+                            <li class="sem">Semester 10</li>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="box4">
+                    <h3>Attendance</h3>
+                </div>
+                <div class="ma">
+                    <div class="legend">
+                        <div class="segment1"></div>
+                        <div>Present</div>
+                        <div class="segment2"></div>
+                        <div>Absent</div>
+                        <div class="segment3"></div>
+                        <div>Days Left</div>
+                    </div>
+                </div>
+                <div class="box4a">
+                    <div class="madar">
+                        <div class="donut">
+                            <div class="hole">
+                                <div id="dd">
+                                    <li class="mm">sems. 1</li>
+                                    <li class="mm" id="re">90</li>
+                                    <li class="mm" id="gr">40</li>
+                                    <li class="mm" id="bq">20</li>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+
+                        <div class="donut">
+                            <div class="hole"></div>
+                        </div>
+                    </div>
+                    <div class="box6a">
+                        <h3>Subjects and Teachers in current Semester</h3>
+                    </div>
+                    <div class="box6">
+                        <div class="b6a">
+                            <li class="hed">Theory Paper</li>
+                            <li class="sub">Communications Skill - II (HS102)</li>
+                            <li class="sub">Engineering Chemistry - II (sub. code)</li>
+                            <li class="sub">Engineering Mathematics - II (sub. code)</li>
+                            <li class="sub">Engineering Physics - II (sub. code)</li>
+                            <li class="sub">Prob. and Stats. for Engineering (sub. code)</li>
+                            <li class="sub">Human Values and Ethics (sub. code)</li>
+                            <li class="sub">Environmental Studies (sub. code)</li>
+                            <li class="sub">Manufacturing (sub. code)</li>
+                            <li class="sub">Programming in Python (sub. code)</li>
+                            <li class="hed">Practical/Viva Voce</li>
+                            <li class="sub">Engineering Graphics - II lab. (sub. code)</li>
+                            <li class="sub">Engineering Chemistry - II lab. (sub. code)</li>
+                            <li class="sub">Engineering Physics - II lab. (sub. code)</li>
+                        </div>
+                        <div class="b6b">
+                            <li class="hed"> Teacher </li>
+                            <li class="sub">sadfgf</li>
+                            <li class="sub">afdsg</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="hed">Viva</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                            <li class="sub">asdfgjn</li>
+                        </div>
+                    </div>
+                    <div class="box7">
+                        <h3>Important Links and Syllabus</h3>
+                        <a href="http://google.com" class="lin">Syllabus</a>
+                        <a href="http://google.com" class="lin">Physics</a>
+                        <a href="http://google.com" class="lin">Chemistry</a>
+                        <a href="http://google.com" class="lin">Maths</a>
+                        <a href="http://google.com" class="lin">Python</a>
+                    </div>
+                    <div class="box8">
+                        <h3>Time Table</h3>
+                        <img src="tt.png" alt="" id="tt">
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="GF"><img src="photu.png" alt="" height="150px" id="pp">
+                    <div id="name">Shivesh Nandan</div>
+                </div>
+
+                <div class="b21">
+                    <div class="ba1">
+                        <li class="dd">Student Id:</li>
+                        <li class="dd">Enrollment no. :</li>
+                        <li class="dd">school:</li>
+                        <li class="dd">Degree:</li>
+                        <li class="dd">Department:</li>
+                        <li class="dd">Date of Birth:</li>
+                        <li class="dd">category:</li>
+                        <li class="dd">Gender:</li>
+                        <li class="dd">Semester:</li>
+                        <li class="dd">Blood Group:</li>
+                        <li class="dd">Minority:</li>
+                        <li class="dd">Admission Type:</li>
+                    </div>
+                    <div class="ba2">
+                        <li class="fg">24589667</li>
+                        <li class="fg">12235465</li>
+                        <li class="fg">USICT</li>
+                        <li class="fg">B.tech</li>
+                        <li class="fg">CSE</li>
+                        <li class="fg">14-03-2003</li>
+                        <li class="fg">sdfghj</li>
+                        <li class="fg">styguhij</li>
+                        <li class="fg">fdfdghjk</li>
+                        <li class="fg">dfyguhjk</li>
+                        <li class="fg">dyfugyhul</li>
+                        <li class="fg">dtfygh</li>
+                    </div>
+                </div>
+                <div class="b22">
+                    <div class="ph">
+                        <li><img src="mail.png" alt="" class="kl"></li>
+                        <li> <img src="call.png" alt="" class="kl"></li>
+                        <li> <img src="add.png" alt="" class="kl"></li>
+                    </div>
+                    <div class="det">
+                        <li class="gg">email</li>
+                        <li class="gg">phone</li>
+                        <li class="gg">address</li>
+                    </div>
+                </div>
+                <div class="htd">
+                    Subjects of the Student
+                </div>
+                <div class="bb6a">
+                    <li class="hed">Theory Paper</li>
+                    <li class="sub">Communications Skill - II (HS102)</li>
+                    <li class="sub">Engineering Chemistry - II (sub. code)</li>
+                    <li class="sub">Engineering Mathematics - II (sub. code)</li>
+                    <li class="sub">Engineering Physics - II (sub. code)</li>
+                    <li class="sub">Prob. and Stats. for Engineering (sub. code)</li>
+                    <li class="sub">Human Values and Ethics (sub. code)</li>
+                    <li class="sub">Environmental Studies (sub. code)</li>
+                    <li class="sub">Manufacturing (sub. code)</li>
+                    <li class="sub">Programming in Python (sub. code)</li>
+                    <li class="hed">Practical/Viva Voce</li>
+                    <li class="sub">Engineering Graphics - II lab. (sub. code)</li>
+                    <li class="sub">Engineering Chemistry - II lab. (sub. code)</li>
+                    <li class="sub">Engineering Physics - II lab. (sub. code)</li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="plugins/jquery-2.2.4.min.js"></script>
+ <script src="plugins/jquery.appear.min.js"></script>
+ <script src="plugins/jquery.easypiechart.min.js"></script> 
+ <script src="profile.js"></script>
+</body>
+
+</html>

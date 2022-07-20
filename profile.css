@@ -1,0 +1,436 @@
+body{
+    margin-bottom: 0px;
+}
+*{
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+}
+.navbar-top{
+    text-align: center;
+}
+
+.mc{
+    position: fixed;
+}
+.mcd-menu{
+    position: sticky;
+    margin-bottom:0px;
+    z-index: 12;
+    width: 15vw;
+    /* margin: -220px 0px 0px 0px; */
+}
+/* #op{
+    margin-bottom: 200px;
+} */
+.navbar-top{
+    height: 145px;
+    z-index: 12;
+}
+/* body{ */
+    /* background-color: rgb(230, 229, 229); */
+    /* background: url("bg.jpg") no-repeat top/cover; */
+/* } */
+.box12::before{
+    content: "";
+  position: fixed;
+  background: url("bg11.jpg") no-repeat top/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -13;
+  top: 0px;
+  left: 0;
+  filter :blur(4px);
+  filter: hue-rotate(12);
+}
+.box12{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+margin: 6px 0px 30px 15.2vw;
+width: 75vw;
+}
+.kl{
+    height: 1.3vw;
+}
+.profile{
+    color: #041d54;
+    font-size: 3.3em;
+    font-weight: 700;
+    margin: 0px 0px 22px 30px;
+    text-shadow: 1px 1px 12px white;
+}
+.bbox{
+    display: flex;
+    z-index: -2;
+    width: 83.4vw;
+}
+.box1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 2px;
+    background-color: rgba(235, 220, 220, 0.673);
+    border: 2px solid rgba(235, 220, 220, 0.796);
+}
+h3{
+    padding: 26px 2px 20px 15px;
+    font-size: 1.6vw;
+}
+.bigb{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;    
+    border-bottom: 2px solid  rgb(230, 229, 229);
+}
+.cv{
+    font-size: 1.02vw;
+    font-weight: bold;
+    color: rgb(78, 70, 70);
+    padding: 15px;
+}
+.vv{
+    font-size: 1.02vw;
+    font-weight: bold;
+    padding: 15px;
+}
+.uu, .ll{
+    display: flex;
+}
+.jj, .oo{
+    display: flex;
+}
+h4{
+    margin: -37px -202px 12px 12px;
+    padding: 2px 2px 2px 2px;
+}
+.bigb2{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+    margin-top: 40px;
+    border-bottom: 2px solid  rgb(230, 229, 229);
+    /* border-bottom: 2px solid red; */
+}
+.address{
+    display: flex;
+}
+.box3{
+    border-bottom: 2px solid  rgb(230, 229, 229);
+    /* margin: 12px; */
+}
+.box2{
+    background-color: white;
+    width: 25%;
+    border-radius: 15px;
+    margin-left: 35px;
+    box-shadow: 2px 2px 20px 2px;
+    background-color: rgba(235, 220, 220, 0.673);
+    border: 2px solid rgba(235, 220, 220, 0.673);
+}
+#pp{
+    border: 3px solid grey;
+    border-radius: 5px;
+    padding: 17px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+#name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.178vw;
+    padding: 1.95vw;
+}
+li{
+    list-style: none;
+    font-size: 1.02vw;
+    padding: 10px 0px 5px 0px;
+}
+.b21{
+    display: flex;
+    justify-content: space-between;
+    margin:  12px;
+    color: rgb(117, 114, 114);
+    border-top: 2px solid  rgb(230, 229, 229);
+    padding: 12px 12px;
+}
+.ba2{
+    text-align: right;
+    font-size: 1.02vw;
+    color: black;
+    font-weight: bold;
+}
+
+.b22{
+    margin: 12px;
+    display: flex;
+    font-size: 1.02vw;
+    padding: 12px;
+    border-top: 2px solid  rgb(230, 229, 229);
+    border-bottom: 2px solid  rgb(230, 229, 229);
+
+}
+.htd{
+    text-align: center;
+    margin:4em 1em 2em 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bb6a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.ph{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.02vw;
+
+}
+.gg{
+    padding: 12px 1px 6px 12px;
+    font-size: 1.02vw;
+}
+
+/* piechart ka kaam */
+.pie {
+    --w:10vw;
+    width: var(--w);
+    --b:0.8vw;
+    text-align: center;
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    justify-content: space-between;
+    place-content: center;
+    margin: 1.95vw 1.95vw 1.95vw 1.6vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 0;
+}
+.sem{
+    font-size: 1em;
+    color: #000;
+}
+.pies, .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.pie:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+  .pie:before {
+    background:
+      radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+      conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  }
+  .pie:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: calc(50% - var(--b)/2);
+    background: var(--c);
+    transform: rotate(25deg) translate(calc(50% - var(--w)/2));
+    transform: rotate(calc(var(--p)*3.6deg)) rotate(90deg) translate(calc(50% - var(--w)/2));
+  }
+
+  /* attendace wala  */
+  .box4a{
+      display: flex;
+      flex-wrap: wrap;
+      /* border-bottom: 2px solid  rgb(230, 229, 229); */
+  }
+  .madar{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 30px 0px;
+      padding: 10px;
+      /* background: black; */
+      border-bottom: 2px solid  rgb(230, 229, 229);
+      justify-content: center;
+  }
+  
+/* (A) PIE CHART */
+.donut {
+    /* (A1) CIRCLE */
+    width: 8.5vw; height: 8.5vw;
+    margin: 1vw 1vw 1vw 2vw;
+    border-radius: 50%;
+  
+    /* (A2) SEGMENTS */
+    background: conic-gradient(
+      rgb(84, 192, 84) 0deg 216deg,
+      rgb(255, 45, 45) 216deg 312deg,
+      rgba(80, 80, 229, 0.94) 312deg 360deg
+    );
+  }
+  
+  /* (B) DONUT "CONVERSION" */
+  /* (B1) SMALLER CIRCLE */
+  .hole {
+    width: 7vw; height: 7vw;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(216, 203, 180);
+  }
+  
+  /* (B2) "CONVERT PIE TO DONUT" - CENTER SMALLER CIRCLE */
+  .donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* (C) LEGEND */
+  /* (C1) LEGEND CONTAINER */
+  .legend {
+    display: flex;
+    font-size: 1.02vw;
+    margin-top: 30px;
+  }
+  .legend div { padding: 0 10px; }
+.segment1 { background: rgb(84, 192, 84); }
+.segment2 { background: rgb(255, 45, 45); }
+.segment3 { background: rgba(80, 80, 229, 0.94); }
+.segment1, .segment2, .segment3 { border-radius: 32px;}  
+
+
+  /* khatam piechart ka kaam */
+  .ma{
+      margin: 0px 20px 40px 30px ;
+  }
+  .box6a{
+    display: none;
+  }
+  .box6{
+      display: none;
+      width: 80%;
+      justify-content: space-around;
+      text-align: center;
+      border-bottom: 2px solid  rgb(230, 229, 229);
+  }
+  .hed{
+     padding: 12px;
+     font-size: 1.3vw;
+     font-weight: bold;
+  }
+  #tt{
+      height: 17.4vw;
+      margin: 0px 20px 20px 5px;
+  }
+  .box7{
+      display: flex;
+      flex-direction: column;
+      width: 44vw;
+      border-bottom: 2px solid  rgb(230, 229, 229);
+      /* border: 2px solid red; */
+    }
+    .lin{
+      text-decoration: none;
+      padding: 12px 12px 12px 12px;
+      margin-left: 23px;
+  }
+  .sub{
+padding: 12px 12px 12px 12px;
+  }
+  #dd{
+      margin-top: 0.6vw;
+  }
+  .dd{
+      font-weight: bold;
+    color: rgb(78, 70, 70);
+  }
+  .mm{
+      font-weight: bold;
+      padding: 2px;
+  }
+  #re{
+      color: rgb(84, 192, 84);
+  }
+  #gr{
+      color:rgb(255, 45, 45);
+  }
+#bq{
+    color: rgba(80, 80, 229, 0.94);
+}
+
+
+
+
+
+/* naya pie chart  */
+
+.b-skills
+{
+	padding-top: 0px;
+	text-align: center;
+}
+
+.skill-item
+{
+	/* border: 2px solid blue; */
+
+	position: relative;
+	width: 10em;
+	margin: 30px;
+	color: #555;
+}
+
+.chart-container
+{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 100%;
+	margin-bottom: 0px;
+}
+
+.skill-item .chart,
+.skill-item .chart canvas
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.skill-item .chart:before
+{
+	content: "";
+	width: 0;
+	height: 100%;
+}
+
+.skill-item .chart:before,
+.skill-item .percent
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.skill-item .percent
+{
+	position: relative;
+	line-height: 1;
+	font-size: 40px;
+	font-weight: 900;
+	z-index: 2;
+}

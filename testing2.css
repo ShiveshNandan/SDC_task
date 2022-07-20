@@ -1,0 +1,223 @@
+*{
+    font-family: arial, helvetica, sans-serif;
+}
+body{
+    background-color: grey;
+}
+.box12{
+    border: 2px solid blue;
+    display: flex;
+justify-content: space-between;
+/* width: 900px; */
+}
+.box1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+h3{
+    padding: 26px 2px 2px 15px;
+    font-size: 1.6vw;
+}
+.bigb{
+    display: flex;
+    justify-content: space-between;
+}
+.cv{
+    color: rgb(117, 114, 114);
+    padding: 15px;
+}
+.vv{
+    font-weight: bold;
+    padding: 15px;
+}
+h4{
+    margin: -37px -202px 12px 12px;
+    padding: 2px 2px 2px 2px;
+}
+.bigb2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-bottom: 2px solid red;
+}
+.address{
+    display: flex;
+}
+.box2{
+    background-color: white;
+    width: 25%;
+    border: 2px solid blue;
+}
+#pp{
+    border: 3px solid red;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+#name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+}
+li{
+    list-style: none;
+    padding: 10px 0px 3px 0px;
+}
+.b21{
+    display: flex;
+    justify-content: space-between;
+    margin:  12px;
+    color: rgb(117, 114, 114);
+    border-top: 2px solid  rgb(230, 229, 229);
+    padding: 12px 12px;
+}
+.ba2{
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+.b22{
+    margin: 12px;
+    display: flex;
+    padding: 12px;
+    border-top: 2px solid  rgb(230, 229, 229);
+}
+.ph{
+    display: flex;
+    flex-direction: column;
+
+}
+.gg{
+    padding: 12px 1px 6px 12px;
+}
+
+/* piechart ka kaam */
+.pie {
+    --w:10vw;
+    width: var(--w);
+    text-align: center;
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    justify-content: space-between;
+    place-content: center;
+    margin: 30px 30px 30px 20px;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.sem{
+    font-size: 0.9vw;
+}
+.pie:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+  .pie:before {
+    background:
+      radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+      conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  }
+  .pie:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: calc(50% - var(--b)/2);
+    background: var(--c);
+    transform: rotate(25deg) translate(calc(50% - var(--w)/2));
+    transform: rotate(calc(var(--p)*3.6deg)) rotate(90deg) translate(calc(50% - var(--w)/2));
+  }
+
+  /* attendace wala  */
+  .box4a{
+      display: flex;
+  }
+  .box5{
+      display: flex;
+      margin: 30px 0px;
+
+  }
+  
+/* (A) PIE CHART */
+.donut {
+    /* (A1) CIRCLE */
+    width: 10.5vw; height: 10.5vw;
+    margin: 1vw 1vw 1vw 2vw;
+    border-radius: 50%;
+  
+    /* (A2) SEGMENTS */
+    background: conic-gradient(
+      red 0deg 80deg,
+      green 80deg 190deg,
+      blue 190deg 360deg
+    );
+  }
+  
+  /* (B) DONUT "CONVERSION" */
+  /* (B1) SMALLER CIRCLE */
+  .hole {
+    width: 8vw; height: 8vw;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+  /* (B2) "CONVERT PIE TO DONUT" - CENTER SMALLER CIRCLE */
+  .donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* (C) LEGEND */
+  /* (C1) LEGEND CONTAINER */
+  .legend {
+    display: flex;
+    margin-top: 30px;
+  }
+  .legend div { padding: 0 10px; }
+.segment1 { background: red; }
+.segment2 { background: green; }
+.segment3 { background: blue; }
+  
+
+
+  /* khatam piechart ka kaam */
+  .ma{
+      margin: 0px 20px 40px 30px ;
+  }
+  .box6{
+      display: flex;
+      width: 80%;
+      justify-content: space-around;
+      text-align: center;
+  }
+  .hed{
+     padding: 12px;
+     font-size: 1.3vw;
+     font-weight: bold;
+  }
+  #tt{
+      height: 20vw;
+      margin: 0px 20px 20px 20px;
+  }
+  .box7{
+      display: flex;
+      flex-direction: column;
+      width: 24vw;
+      border: 2px solid red;
+    }
+    .lin{
+      text-decoration: none;
+      padding: 12px 12px 12px 12px;
+  }

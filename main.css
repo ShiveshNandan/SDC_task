@@ -1,0 +1,99 @@
+*{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+.box{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    /* margin: 7px 104px -9px 725px; */
+    margin: auto;
+    margin-left: 47.6%;
+    width: 375px;
+    border: 2px solid rgba(235, 220, 220, 0.673);
+    padding: 10px;
+    box-shadow: 2px 2px 20px 2px;
+    border-radius: 10px;
+    background-color: rgba(235, 220, 220, 0.673);
+    background-color: rgb(133 129 129 / 64%);
+    z-index: 155555565;
+}
+.box::before{
+    content: "";
+  position: absolute;
+  background: url("bg11.jpg") no-repeat top/cover;
+  height: 720px;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0;
+  filter :blur(4px);
+  filter: hue-rotate(12);
+}
+#login{
+    margin: 0px 12px 30px 12px;
+}
+h1{
+    /* color: #b3feb3; */
+    color: #dbedf7;
+    margin: -530px 12px 50px 306px;
+    
+    text-shadow: 2px 2px black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: #041d54;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.in{
+    height: 30px;
+    width: 300px;
+    margin: 5px 12px 12px 12px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.in:hover{
+    transform: scale(1.08); 
+}
+.btn{
+    margin: 35px 20px 12px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: whitesmoke;
+}
+#ok{
+    background-color: green; 
+}
+#ok:hover{
+    background-color: #00b700;
+    transform: scale(1.08);   
+    box-shadow: 4px 4px 7px 0px black;
+    cursor: pointer;
+}
+#reset{
+    background-color: #c20202;
+}
+#reset:hover{
+    background-color: rgb(255, 36, 36);
+    transform: scale(1.08); 
+    box-shadow: 4px 4px 7px 0px black;
+    cursor: pointer;   
+}
+.hre{
+    text-decoration: none;
+    color:#500b19;
+}
+.qwe{
+    margin-top: 12px;
+}
+.qwe:hover{
+    transform: scale(1.02);
+}
